@@ -34,7 +34,7 @@ header{ background: var(--paper); border-bottom:1px solid var(--line); position:
 /* hero */
 .hero{
   position:relative; overflow:hidden; color:#fff; padding:110px 0 90px;
-  background-image: linear-gradient(rgba(20,38,63,.78), rgba(23,26,31,.85)), url("images/hero-bg.jpg");
+  background-image: linear-gradient(rgba(20,38,63,.78), rgba(23,26,31,.85)), url("/images/hero-bg.jpg");
   background-size: cover;
   background-position: center 35%;
 }
