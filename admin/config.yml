@@ -1,0 +1,68 @@
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/kobalt-site
+  branch: main
+
+# Where uploaded photos land, and the path used to reference them in pages.
+media_folder: "images"
+public_folder: "images"
+
+collections:
+  - name: "projects"
+    label: "Projects"
+    folder: "data/projects"
+    create: true
+    slug: "{{fields.slug}}"
+    summary: "{{name}} — {{tag}}"
+    extension: "json"
+    format: "json"
+    fields:
+      - {label: "URL Slug (no spaces, e.g. new-project-name)", name: "slug", widget: "string", hint: "This becomes the page filename — keep it short, lowercase, and hyphenated."}
+      - {label: "Display Order (lower numbers show first)", name: "order", widget: "number", default: 99}
+      - {label: "Project Name", name: "name", widget: "string"}
+      - label: "Category"
+        name: "tag"
+        widget: "select"
+        options: ["Commercial", "Residential", "Public"]
+      - {label: "Location (shown under the title)", name: "location", widget: "string"}
+      - {label: "Street Address (optional, shown on the gallery card)", name: "address", widget: "string", required: false}
+      - {label: "Hero Photo", name: "hero_image", widget: "image"}
+      - {label: "Hero Photo Description (for accessibility/SEO)", name: "hero_alt", widget: "string"}
+      - {label: "Short Card Summary (one line, shown in the gallery)", name: "summary", widget: "string"}
+      - label: "Write-Up Paragraphs"
+        name: "paragraphs"
+        widget: "list"
+        field: {label: "Paragraph", name: "paragraph", widget: "text"}
+      - {label: "Project Team & Partners (optional, one line)", name: "team_credit", widget: "string", required: false}
+      - {label: "Source Note (optional, e.g. 'Featured on WNEP')", name: "source_note", widget: "string", required: false}
+      - label: "Additional Photos"
+        name: "gallery"
+        widget: "list"
+        required: false
+        fields:
+          - {label: "Photo", name: "image", widget: "image"}
+          - {label: "Description", name: "alt", widget: "string"}
+
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "data/blog"
+    create: true
+    slug: "{{fields.slug}}"
+    summary: "{{title}}"
+    extension: "json"
+    format: "json"
+    fields:
+      - {label: "URL Slug (no spaces, e.g. blog-new-post-title)", name: "slug", widget: "string", hint: "This becomes the page filename — keep it short, lowercase, and hyphenated."}
+      - {label: "Display Order (lower numbers show first)", name: "order", widget: "number", default: 99}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Category", name: "category", widget: "string"}
+      - {label: "Short Card Summary (one line)", name: "summary", widget: "string"}
+      - label: "Article Paragraphs"
+        name: "paragraphs"
+        widget: "list"
+        field: {label: "Paragraph", name: "paragraph", widget: "text"}
+      - {label: "Source Article Title", name: "source_title", widget: "string"}
+      - {label: "Source Publisher (full name)", name: "source_publisher", widget: "string"}
+      - {label: "Source Short Name (e.g. NAHB)", name: "source_short", widget: "string"}
+      - {label: "Source Publish Date", name: "source_date", widget: "string"}
+      - {label: "Source URL", name: "source_url", widget: "string"}

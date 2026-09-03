@@ -1,0 +1,36 @@
+{
+  "slug": "autozone-wyoming",
+  "name": "AutoZone | Wyoming, PA",
+  "tag": "Commercial",
+  "location": "998 Wyoming Ave, Wyoming, PA 18644",
+  "hero_image": "autozone-wyoming-hero.jpg",
+  "hero_alt": "Kobalt paving crew at AutoZone, Wyoming PA",
+  "source_note": "",
+  "paragraphs": [
+    "The AutoZone Wyoming project began with site demolition and milling operations, clearing the existing pavement and preparing the site for new construction.",
+    "Our team then installed the site's water, sewer, and electrical utilities, alongside stormwater management and erosion control measures to protect the surrounding environment throughout construction.",
+    "From there, our concrete and masonry crews built the site's foundations, while our paving team laid durable asphalt surfaces for the parking lot and access drives \u2014 delivering every phase of the project in-house, from first demolition to final striping."
+  ],
+  "team_credit": "",
+  "gallery": [
+    {
+      "image": "autozone-wyoming-labor.jpg",
+      "alt": "AutoZone | Wyoming, PA \u2014 additional photo"
+    },
+    {
+      "image": "autozone-wyoming-alt1.jpg",
+      "alt": "AutoZone | Wyoming, PA \u2014 additional photo"
+    },
+    {
+      "image": "autozone-wyoming-alt2.jpg",
+      "alt": "AutoZone | Wyoming, PA \u2014 additional photo"
+    },
+    {
+      "image": "autozone-wyoming-alt3.jpg",
+      "alt": "AutoZone | Wyoming, PA \u2014 additional photo"
+    }
+  ],
+  "summary": "Ground-up retail construction, from foundation through paving.",
+  "address": "998 Wyoming Ave, Wyoming, PA 18644",
+  "order": 2
+}
