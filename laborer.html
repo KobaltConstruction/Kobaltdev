@@ -25,6 +25,9 @@
       <a href="blog.html">Blog</a>
     </nav>
     <a href="contact.html" class="nav-cta">Get a Quote</a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" onclick="var n=document.querySelector('.navlinks'); var open=n.classList.toggle('open'); this.classList.toggle('open'); this.setAttribute('aria-expanded', open);">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </header>
 
@@ -53,7 +56,7 @@
       <li>OSHA 10 certification a plus, but not required to apply</li>
     </ul>
 
-    <form class="apply-form" action="https://formspree.io/f/xrpggdpz" method="POST"
+    <form class="apply-form" action="https://formspree.io/f/xrpggdpz" method="POST">
       <h3>Apply for This Position</h3>
       <p>Fill this out and submit — it comes straight to our HR inbox. Works on any device, no PDF viewer needed.</p>
 
@@ -123,8 +126,6 @@
           <textarea name="Experience" placeholder="Recent employers, positions held, and dates. Feel free to include references too."></textarea>
         </div>
       </div>
-
-      
 
       <div class="form-submit-row">
         <button type="submit" class="btn btn-amber">Submit Application</button>

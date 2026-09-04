@@ -1,94 +1,104 @@
-# Kobalt Construction Website — Status as of Sep 2, 2026 (evening)
+# Kobalt Construction Website — Status as of Sep 3, 2026
 
-## THE ONE THING BLOCKING LAUNCH RIGHT NOW
-DNS at GoDaddy is the last step. Both **deleting** and **editing** the two old
-A records (100.24.208.97 and 35.172.94.1) trigger GoDaddy's SMS 2FA prompt,
-and that code goes to an outside IT contractor's phone who couldn't be
-reached today. Nothing else is blocking — this is the only open item.
+## BIG MILESTONE: dev.kobaltconstruction.com is live and confirmed working
+Real-world tested on the actual deployed site (not just previews) — hero
+image displays correctly, navigation works, forms submit successfully.
+User is letting it run for a few days to watch for anything breaking
+before doing the real production launch.
 
-**Tomorrow, try in this order:**
-1. See if the IT contact can just forward the SMS code via text (doesn't
-   require an actual phone call — a much lower ask than trying to reach him
-   live).
-2. If reached, get the DNS changes done in one sitting (see exact records
-   below) — should take 2 minutes once past the 2FA prompt.
-3. Once saved, DNS can take a few minutes to 24-48 hours to propagate. Then:
-   in the GitHub repo, Settings → Pages → check "Enforce HTTPS."
+## What's next — the actual go-live (do this after the waiting period)
+This is genuinely the last stretch. In order:
 
-## Exact DNS records still needed at GoDaddy (kobaltconstruction.com)
-Already done: `www` CNAME edited to point to `kobaltconstruction.github.io` ✅
+1. **Switch from dev testing to production domain:**
+   - Edit the `CNAME` file in the repo: change its content from
+     `dev.kobaltconstruction.com` back to `kobaltconstruction.com`
+   - In GitHub repo Settings → Pages, update the Custom domain field to
+     `kobaltconstruction.com` to match
+2. **Change the ROOT domain's A records at GoDaddy** (this is the one
+   still not done — the dev subdomain was purely a safe way to test
+   first): same 4 A records as before, Host `@`:
+   `185.199.108.153`, `185.199.109.153`, `185.199.110.153`,
+   `185.199.111.153`. The `www` CNAME was already fixed earlier and
+   shouldn't need touching again.
+   - Note: editing/deleting A records has repeatedly triggered GoDaddy's
+     SMS 2FA, sent to an outside IT contact's phone who's been hard to
+     reach live — asking him to just forward the text code (not a call)
+     has been the workaround.
+3. Wait for DNS propagation, then check "Enforce HTTPS" in GitHub Pages
+   settings once it's available.
+4. Verify the live kobaltconstruction.com site directly.
+5. **Then**, only after confirming stability: begin decommissioning
+   Quantifi Media (see below).
 
-Still needed — the two old A records need to become 4 correct ones:
-- Delete or repoint away from: `100.24.208.97` and `35.172.94.1`
-  (these point at Quantifi Media's old hosting)
-- Should end up as 4 A records, Host `@`, values:
-  `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
+## Known unfinished technical item: custom build workflow is broken
+The custom `.github/workflows/build-deploy.yml` (meant to auto-run the
+Python build script and regenerate pages when Decap CMS makes an edit)
+failed with a YAML error ("No event triggers defined in `on`") — almost
+certainly introduced when the file was pasted into GitHub's web editor
+and indentation shifted. **The site currently works fine anyway**,
+because GitHub's own default "pages build and deployment" workflow is
+serving it — but that default workflow does NOT run the Python build
+step. This means: **Decap CMS editing won't actually regenerate pages
+correctly until this workflow is fixed.** Needs the raw current file
+content pulled from the repo and debugged properly (indentation-safe),
+rather than re-pasted blind again.
 
-**Do NOT touch:** both NS records, SOA, the `autodiscover` CNAME, the MX
-record, or either TXT record — all of those are tied to Kobalt's Microsoft
-365 email and Google verification, confirmed unrelated to the website.
+## Decap CMS — scaffolding built, login setup still not done
+`admin/config.yml` and `admin/index.html` exist and are configured
+correctly for folder-based collections (`data/projects/*.json`,
+`data/blog/*.json`). Still needed before anyone can actually log in and
+use it:
+- `admin/config.yml`'s repo field still has the placeholder
+  `YOUR-GITHUB-USERNAME/kobalt-site` — needs to become the real repo
+  (KobaltConstruction org, "Kobalt" repo).
+- The GitHub OAuth App + free-Netlify-as-relay setup (CMS_SETUP.md Part 2)
+  hasn't been done yet.
+- The broken build workflow above should be fixed first, since CMS edits
+  depend on it.
 
-## Everything else — DONE and confirmed working
-- **Site is fully built**, hosted on GitHub Pages (repo: KobaltConstruction
-  org, repo name "Kobalt"), Actions auto-deploy working, currently live at
-  `kobaltconstruction.github.io/Kobalt/` — though that link itself will
-  error until DNS above is finished, because a CNAME file already added to
-  the repo makes GitHub auto-redirect that URL to the custom domain.
-- **Both forms fully tested and confirmed working end-to-end**, multiple
-  real test submissions received:
-  - Contact form (Formspree ID `xjyvrkqz`) → delivers to
-    info@kobaltconstruction.com
-  - Job application form (Formspree ID `xrpggdpz`, used on all 4 job
-    pages) → delivers to hr@kobaltconstruction.com
-  - Earlier test emails were landing in spam — traced to Claude's own
-    test-submission phrasing looking spammy (repeated "TEST SUBMISSION"
-    boilerplate, placeholder email/phone) tripping Formspree's spam filter,
-    not a real delivery problem. Confirmed fixed with natural-sounding test
-    content — real applicants should be unaffected either way.
-- **"Our Partners and Qualifications" section** added to the About page —
-  8 clickable badges (styled icon+text, not literal copied logos) linking
-  to real, verified org websites. Two flagged issues: Construction
-  Journal's old domain now redirects to ConstructConnect (they were
-  acquired); Mount Pocono Association's own domain (mtpoconoassn.com) is
-  currently down (502 error), so that badge links to a directory listing
-  on PoconoMountains.com instead — update if a better link surfaces.
-- **Legal & Policies page** added (`legal-policies.html`) — Privacy Policy,
-  Equal Opportunity Employer statement, Accessibility Statement. Linked
-  only from the homepage footer (not site-wide) per instruction. This is
-  solid starting-point boilerplate, not attorney-reviewed — worth a real
-  legal look given the site collects personal data and resumes.
-- **Decap CMS scaffolding built**: `data/projects/*.json` and
-  `data/blog/*.json` (one file per project/post), `scripts/build.py`
-  regenerates all project/blog pages + projects.html + blog.html from that
-  data, `.github/workflows/build-deploy.yml` auto-builds and deploys on
-  every push. Verified rigorously against the live site — output matches
-  exactly (a few deliberate improvements included: fixed a pre-existing
-  nav-highlighting bug on blog posts, restored some lost card
-  summaries/alt-text along the way).
-  - **Still not done**: the actual GitHub OAuth + free-Netlify-as-relay
-    setup that lets someone log into `/admin/` and use the CMS UI. Steps
-    are written out in `CMS_SETUP.md` Part 2. `admin/config.yml` still has
-    a placeholder repo name (`YOUR-GITHUB-USERNAME/kobalt-site`) that
-    needs to be swapped for the real one (KobaltConstruction org / Kobalt
-    repo).
-- **Workflow fix applied but needs pushing**: `build-deploy.yml`'s
-  auto-commit step was changed to `continue-on-error: true`, so it won't
-  break if branch protection blocks its direct push to main. **This
-  updated file needs to be pushed to the GitHub repo** — not yet
-  confirmed done.
-- **Branch protection guidance given** for `main` (require PRs, don't
-  block owner bypass) — not yet confirmed done on GitHub's side.
+## Two real bugs found and fixed during dev testing (both live now)
+- **Hero background image was invisible** — `css/style.css` referenced
+  the image with a path relative to the CSS file's own location
+  (`images/hero-bg.jpg`), which only worked in every prior preview
+  because those always inlined the CSS. As a real separate file it
+  resolved to a nonexistent path. Fixed to `/images/hero-bg.jpg`
+  (root-relative). This was a latent bug the whole project — worth
+  double-checking there isn't a similar issue anywhere else if new CSS
+  background-images get added later.
+- **Resume upload removed from all 4 job pages** — Kobalt's Formspree
+  plan doesn't support file attachments on the free tier. Removed the
+  file input and the now-unneeded `enctype="multipart/form-data"` from
+  each job page's form tag. The "prefer a printable form? Download the
+  PDF instead" fallback link is now the primary way applicants can send
+  an actual resume file.
 
-## Not started yet — later steps, in order
-1. Confirm DNS fully resolved + HTTPS enforced (tomorrow's task).
-2. Confirm the GitHub OAuth/Decap CMS login actually works end to end.
-3. Let the new site run stable for at least a week before touching Quantifi.
-4. Decommission Quantifi Media: confirm they don't host anything else
-   (email is confirmed separate, on Microsoft 365 — good), check the
-   actual contract for required notice period (never been read/shared),
-   send written cancellation referencing those terms.
-5. Whenever ready: staff → Claude → PR workflow for non-technical edits —
-   foundation (branch protection) is being laid now but not activated.
+## Confirmed fully working
+- Both forms (Contact → info@kobaltconstruction.com, Job Applications →
+  hr@kobaltconstruction.com) — tested repeatedly, real emails received.
+  Earlier spam-folder issue was traced to Claude's own repetitive test
+  phrasing tripping Formspree's spam filter, not a real delivery problem.
+- "Our Partners and Qualifications" section on About page (8 badges,
+  2 have known link caveats — see below).
+- Legal & Policies page (Privacy Policy, EEO statement, Accessibility
+  statement) — linked from homepage footer only, not attorney-reviewed.
+- All 25 projects, 5 blog posts (NAHB-sourced), all service pages.
+
+## Known caveats still standing (not urgent, just worth remembering)
+- Construction Journal's badge links to a domain that now redirects to
+  ConstructConnect (they were acquired) — still functional, just not
+  where the name implies.
+- Mount Pocono Association's own domain is down (502 error) — badge
+  links to a PoconoMountains.com directory listing instead.
+- Legal & Policies content is solid boilerplate, not a substitute for
+  actual attorney review, given the site collects personal data/resumes.
+
+## Quantifi Media decommission — do this LAST, after the real launch is stable
+1. Confirm nothing else is hosted by Quantifi (email is confirmed
+   separate — Kobalt runs on Microsoft 365, unrelated to them).
+2. Check the actual contract for required notice period (never been
+   read/shared with Claude).
+3. Send written cancellation referencing those terms.
+4. Confirm old site is taken down/redirected and account fully closed.
 
 ## Naming note
 "JustQ Solutions" and "Quantifi Media" are the same company — use
