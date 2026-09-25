@@ -48,8 +48,31 @@ PROJECT_DOC = '''<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9406J8G3G0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+  gtag('config', 'G-9406J8G3G0');
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{name} | Kobalt Construction Projects</title>
+<meta name="description" content="{meta_desc}">
+<link rel="canonical" href="https://kobaltconstruction.com/{slug}.html">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon-180.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{name} | Kobalt Construction Projects">
+<meta property="og:description" content="{meta_desc}">
+<meta property="og:url" content="https://kobaltconstruction.com/{slug}.html">
+<meta property="og:image" content="https://kobaltconstruction.com/{meta_image}">
+<meta property="og:site_name" content="Kobalt Construction">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{name} | Kobalt Construction Projects">
+<meta name="twitter:description" content="{meta_desc}">
+<meta name="twitter:image" content="https://kobaltconstruction.com/{meta_image}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
@@ -95,8 +118,31 @@ BLOG_DOC = '''<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9406J8G3G0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+  gtag('config', 'G-9406J8G3G0');
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title} | Kobalt Construction Blog</title>
+<meta name="description" content="{meta_desc}">
+<link rel="canonical" href="https://kobaltconstruction.com/{slug}.html">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon-180.png">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{title} | Kobalt Construction Blog">
+<meta property="og:description" content="{meta_desc}">
+<meta property="og:url" content="https://kobaltconstruction.com/{slug}.html">
+<meta property="og:image" content="https://kobaltconstruction.com/images/hero-bg.jpg">
+<meta property="og:site_name" content="Kobalt Construction">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{title} | Kobalt Construction Blog">
+<meta name="twitter:description" content="{meta_desc}">
+<meta name="twitter:image" content="https://kobaltconstruction.com/images/hero-bg.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
@@ -184,11 +230,14 @@ def build_projects(header, footer):
         else:
             gallery_block = ""
 
+        meta_desc = (p.get("summary") or (p["paragraphs"][0][:150] if p["paragraphs"] else f"{p['name']} — a {p['tag'].lower()} project by Kobalt Construction."))
         html = PROJECT_DOC.format(
             name=p["name"], tag=p["tag"], location=p["location"],
             header=proj_header, footer=footer, hero_block=hero_block,
             source_note=source_note, paragraphs=paragraphs,
             team_block=team_block, gallery_block=gallery_block,
+            slug=p["slug"], meta_desc=meta_desc,
+            meta_image=f'images/{p["hero_image"]}' if p.get("hero_image") else "images/hero-bg.jpg",
         )
         (ROOT / f'{p["slug"]}.html').write_text(html)
 
@@ -213,8 +262,31 @@ def build_projects(header, footer):
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9406J8G3G0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+  gtag('config', 'G-9406J8G3G0');
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Projects | Kobalt Construction</title>
+<title>Our Projects | Kobalt Construction</title>
+<meta name="description" content="A look at the many commercial, residential, and public construction projects Kobalt Construction has completed across the Poconos and Northeastern PA.">
+<link rel="canonical" href="https://kobaltconstruction.com/projects.html">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon-180.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Our Projects | Kobalt Construction">
+<meta property="og:description" content="A look at the many commercial, residential, and public construction projects Kobalt Construction has completed across the Poconos and Northeastern PA.">
+<meta property="og:url" content="https://kobaltconstruction.com/projects.html">
+<meta property="og:image" content="https://kobaltconstruction.com/images/hero-bg.jpg">
+<meta property="og:site_name" content="Kobalt Construction">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Our Projects | Kobalt Construction">
+<meta name="twitter:description" content="A look at the many commercial, residential, and public construction projects Kobalt Construction has completed across the Poconos and Northeastern PA.">
+<meta name="twitter:image" content="https://kobaltconstruction.com/images/hero-bg.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
@@ -264,11 +336,13 @@ def build_blog(header, footer):
 
     for post in posts:
         paragraphs = "\n    ".join(f"<p>{para}</p>" for para in post["paragraphs"])
+        meta_desc = post.get("summary") or (post["paragraphs"][0][:150] if post["paragraphs"] else post["title"])
         html = BLOG_DOC.format(
             title=post["title"], category=post["category"], header=blog_header, footer=footer,
             paragraphs=paragraphs, source_title=post["source_title"],
             source_publisher=post["source_publisher"], source_date=post["source_date"],
             source_url=post["source_url"], source_short=post.get("source_short", "NAHB.org"),
+            slug=post["slug"], meta_desc=meta_desc,
         )
         (ROOT / f'{post["slug"]}.html').write_text(html)
 
@@ -292,8 +366,31 @@ def build_blog(header, footer):
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9406J8G3G0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+  gtag('config', 'G-9406J8G3G0');
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Blog | Kobalt Construction</title>
+<meta name="description" content="Industry insights on building codes, safety, market trends, and construction planning, curated by Kobalt Construction from NAHB reporting.">
+<link rel="canonical" href="https://kobaltconstruction.com/blog.html">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon-180.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Blog | Kobalt Construction">
+<meta property="og:description" content="Industry insights on building codes, safety, market trends, and construction planning, curated by Kobalt Construction from NAHB reporting.">
+<meta property="og:url" content="https://kobaltconstruction.com/blog.html">
+<meta property="og:image" content="https://kobaltconstruction.com/images/hero-bg.jpg">
+<meta property="og:site_name" content="Kobalt Construction">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Blog | Kobalt Construction">
+<meta name="twitter:description" content="Industry insights on building codes, safety, market trends, and construction planning, curated by Kobalt Construction from NAHB reporting.">
+<meta name="twitter:image" content="https://kobaltconstruction.com/images/hero-bg.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">

@@ -174,9 +174,10 @@ section{ padding:80px 0; }
 .quote-card .who{ font-size:13px; font-weight:700; letter-spacing:.03em; }
 .quote-card:nth-child(1){ margin-top:36px; transform:rotate(-2.5deg); }
 .quote-card:nth-child(2){ margin-top:-10px; transform:rotate(2deg); }
-.quote-card:nth-child(3){ margin-top:0; transform:rotate(0deg); }
-.quote-card:nth-child(4){ margin-top:-10px; transform:rotate(-2deg); }
-.quote-card:nth-child(5){ margin-top:36px; transform:rotate(2.5deg); }
+.quote-card:nth-child(3){ margin-top:0; transform:rotate(-1deg); }
+.quote-card:nth-child(4){ margin-top:0; transform:rotate(1deg); }
+.quote-card:nth-child(5){ margin-top:-10px; transform:rotate(-2deg); }
+.quote-card:nth-child(6){ margin-top:36px; transform:rotate(2.5deg); }
 @media(max-width:860px){ .testi-grid{ gap:18px 20px; } }
 @media(max-width:600px){
   .testi-grid{ flex-direction:column; align-items:stretch; }
