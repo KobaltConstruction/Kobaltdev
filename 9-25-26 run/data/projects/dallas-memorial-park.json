@@ -1,0 +1,36 @@
+{
+  "slug": "dallas-memorial-park",
+  "name": "Dallas Memorial Park Improvements",
+  "tag": "Public",
+  "location": "Dallas, PA",
+  "hero_image": "dallas-memorial-park-hero.jpg",
+  "hero_alt": "New basketball and pickleball courts at Dallas Memorial Park",
+  "source_note": "",
+  "paragraphs": [
+    "Dallas Memorial Park has been getting a full slate of recreational upgrades, and our site team \u2014 led by Chris and Mike \u2014 has handled the work for the Borough of Dallas and project engineer Quad 3 Engineers.",
+    "The scope covers new basketball and pickleball courts, new parking lots, sports surfacing, sidewalks, and fencing throughout the park. As the project nears completion, our paving team, led by Adrien, has been on-site wrapping up trail paving and the new ADA-accessible parking lot.",
+    "With courts, parking, and pathways all part of the same coordinated scope, the improvements give the Dallas community a refreshed, more accessible park to enjoy for years to come."
+  ],
+  "team_credit": "Client: Borough of Dallas. Engineer: Quad 3 Engineers.",
+  "gallery": [
+    {
+      "image": "dallas-memorial-park-alt3.jpg",
+      "alt": "Newly paved basketball court at Dallas Memorial Park"
+    },
+    {
+      "image": "dallas-memorial-park-alt2.jpg",
+      "alt": "Pavilion and paving crew at Dallas Memorial Park"
+    },
+    {
+      "image": "dallas-memorial-park-alt1.jpg",
+      "alt": "Playground area at Dallas Memorial Park"
+    },
+    {
+      "image": "dallas-memorial-park-alt4.jpg",
+      "alt": "Paving crew and truck at Dallas Memorial Park"
+    }
+  ],
+  "summary": "New basketball and pickleball courts, parking, sidewalks, and fencing.",
+  "address": "",
+  "order": 12
+}

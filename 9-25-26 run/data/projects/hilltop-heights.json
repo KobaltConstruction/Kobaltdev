@@ -1,0 +1,32 @@
+{
+  "slug": "hilltop-heights",
+  "name": "Hilltop Heights",
+  "tag": "Residential",
+  "location": "Scranton, PA",
+  "hero_image": "hilltop-hero.jpg",
+  "hero_alt": "Mason laying block foundation wall at Hilltop Heights",
+  "source_note": "",
+  "paragraphs": [
+    "Hilltop Heights was one of our winter projects for developer Quandell Construction \u2014 a City of Scranton housing initiative aimed at bringing affordable housing to the area, and a continuation of a relationship we've valued working on together.",
+    "Our scope covered the site and structural groundwork for four large multi-story units: excavation, stone drains, footings, masonry foundation walls, and slab-on-grade construction. It was a tight schedule set against a challenging winter, and our layout team \u2014 Shaun and John \u2014 made sure every building corner and layout line was precise before the framing crew moved in behind us.",
+    "Our concrete and masonry teams, working under site lead Adam, carried the project from footings to finished foundations, setting the stage for four new multi-story residential buildings to rise on the site."
+  ],
+  "team_credit": "Developer: Quandell Construction. Slab placement support: Cora's Concrete. Suppliers: JDM Materials (ready mix), Keystone Block, and Vimco (concrete accessories).",
+  "gallery": [
+    {
+      "image": "hilltop-labor.jpg",
+      "alt": "Hilltop Heights \u2014 additional photo"
+    },
+    {
+      "image": "hilltop-alt.jpg",
+      "alt": "Hilltop Heights \u2014 additional photo"
+    },
+    {
+      "image": "hilltop-alt2.jpg",
+      "alt": "Hilltop Heights \u2014 additional photo"
+    }
+  ],
+  "summary": "New residential development in Scranton \u2014 foundation and early site work.",
+  "address": "",
+  "order": 6
+}
