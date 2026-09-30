@@ -188,4 +188,8 @@
     <loc>https://kobaltconstruction.com/westfall-twp-municipal-building.html</loc>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://kobaltconstruction.com/faq.html</loc>
+    <priority>0.6</priority>
+  </url>
 </urlset>
