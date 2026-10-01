@@ -1,0 +1,141 @@
+[
+  {
+    "name": "Kobalt Construction HQ",
+    "lat": 41.1396,
+    "lon": -75.3588,
+    "hq": true,
+    "href": null
+  },
+  {
+    "name": "Ann Street Park",
+    "lat": 41.3194,
+    "lon": -74.7977,
+    "href": "ann-street-park.html"
+  },
+  {
+    "name": "Capouse Avenue Park",
+    "lat": 41.4241,
+    "lon": -75.6525,
+    "href": "capouse-avenue-park.html"
+  },
+  {
+    "name": "VFW Memorial",
+    "lat": 41.4668,
+    "lon": -75.6215,
+    "href": "vfw-memorial-dickson-city.html"
+  },
+  {
+    "name": "12th Ward Park",
+    "lat": 40.9618,
+    "lon": -75.9886,
+    "href": "12th-ward-park.html"
+  },
+  {
+    "name": "Carbon County Emergency Training Center",
+    "lat": 40.879,
+    "lon": -75.7778,
+    "href": "carbon-county-emergency-training-center.html"
+  },
+  {
+    "name": "Frances Slocum State Park",
+    "lat": 41.3474,
+    "lon": -75.8933,
+    "href": "frances-slocum-state-park.html"
+  },
+  {
+    "name": "Crestwood School",
+    "lat": 41.1397,
+    "lon": -75.9037,
+    "href": "crestwood-school.html"
+  },
+  {
+    "name": "Westfall Twp Municipal Building",
+    "lat": 41.386,
+    "lon": -74.7141,
+    "href": "westfall-twp-municipal-building.html"
+  },
+  {
+    "name": "Marshalls Falls Park",
+    "lat": 41.0519,
+    "lon": -75.1376,
+    "href": "marshalls-falls-park.html"
+  },
+  {
+    "name": "Weis Supermarkets",
+    "lat": 41.1208,
+    "lon": -75.3734,
+    "href": "weis-supermarkets.html"
+  },
+  {
+    "name": "Lowes Warehouse",
+    "lat": 41.1228,
+    "lon": -75.3763,
+    "href": "lowes-warehouse.html"
+  },
+  {
+    "name": "West Hazleton Borough",
+    "lat": 40.9573,
+    "lon": -75.9923,
+    "href": "west-hazleton-borough.html"
+  },
+  {
+    "name": "AutoZone Wyoming",
+    "lat": 41.301,
+    "lon": -75.8524,
+    "href": "autozone-wyoming.html"
+  },
+  {
+    "name": "Pocono Mountain School District",
+    "lat": 41.109,
+    "lon": -75.4225,
+    "href": "pocono-mountain-school-district.html"
+  },
+  {
+    "name": "Wawa Plains Township",
+    "lat": 41.263,
+    "lon": -75.817,
+    "href": "wawa-plains-township.html"
+  },
+  {
+    "name": "Hilltop Heights",
+    "lat": 41.3801,
+    "lon": -75.6762,
+    "href": "hilltop-heights.html"
+  },
+  {
+    "name": "Hazleton Area School District",
+    "lat": 40.973,
+    "lon": -75.9928,
+    "href": "hazleton-area-school-district.html"
+  },
+  {
+    "name": "Luzerne County Flood Authority",
+    "lat": 41.2977,
+    "lon": -75.8611,
+    "href": "luzerne-county-flood-authority.html"
+  },
+  {
+    "name": "The Estate at Schollhammer's Farms",
+    "lat": 40.9884,
+    "lon": -75.2638,
+    "href": "schollhammers-farms.html"
+  },
+  {
+    "name": "Bushkill Outreach",
+    "lat": 41.1051,
+    "lon": -75.046,
+    "href": "bushkill-outreach.html"
+  },
+  {
+    "name": "AutoZone Stroudsburg",
+    "lat": 40.9961,
+    "lon": -75.2527,
+    "href": "autozone-stroudsburg.html"
+  },
+  {
+    "name": "Jeter Avenue (Bethlehem, PA)",
+    "lat": 40.6185,
+    "lon": -75.378,
+    "href": "jeter-avenue.html"
+  }
+]

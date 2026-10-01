@@ -131,5 +131,79 @@
   <div class="foot-bottom">© 2026 Kobalt Construction Inc. All Rights Reserved.</div>
 </footer>
 
+<script>
+(function(){
+  // Scroll-reveal animation for sections (skips the first section to avoid hero flicker)
+  var sections = document.querySelectorAll('section');
+  if (sections.length > 1 && 'IntersectionObserver' in window) {
+    var revealObserver = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    sections.forEach(function(sec, i){
+      if (i === 0) return;
+      sec.classList.add('reveal-section');
+      revealObserver.observe(sec);
+    });
+  }
+
+  // Photo gallery lightbox
+  var galleryImgs = document.querySelectorAll('.project-gallery img');
+  if (galleryImgs.length) {
+    var images = Array.prototype.map.call(galleryImgs, function(img){ return { src: img.src, alt: img.alt }; });
+    var current = 0;
+
+    var lb = document.createElement('div');
+    lb.className = 'kobalt-lightbox';
+    lb.setAttribute('role', 'dialog');
+    lb.setAttribute('aria-modal', 'true');
+    lb.innerHTML =
+      '<button class="kobalt-lightbox-close" aria-label="Close">&times;</button>' +
+      '<button class="kobalt-lightbox-nav kobalt-lightbox-prev" aria-label="Previous photo">&#8249;</button>' +
+      '<img alt="">' +
+      '<button class="kobalt-lightbox-nav kobalt-lightbox-next" aria-label="Next photo">&#8250;</button>' +
+      '<div class="kobalt-lightbox-count"></div>';
+    document.body.appendChild(lb);
+
+    var lbImg = lb.querySelector('img');
+    var lbCount = lb.querySelector('.kobalt-lightbox-count');
+
+    function show(i){
+      current = (i + images.length) % images.length;
+      lbImg.src = images[current].src;
+      lbImg.alt = images[current].alt;
+      lbCount.textContent = (current + 1) + ' / ' + images.length;
+    }
+    function openLightbox(i){
+      show(i);
+      lb.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeLightbox(){
+      lb.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    galleryImgs.forEach(function(img, i){
+      img.addEventListener('click', function(){ openLightbox(i); });
+    });
+    lb.querySelector('.kobalt-lightbox-close').addEventListener('click', closeLightbox);
+    lb.querySelector('.kobalt-lightbox-prev').addEventListener('click', function(){ show(current - 1); });
+    lb.querySelector('.kobalt-lightbox-next').addEventListener('click', function(){ show(current + 1); });
+    lb.addEventListener('click', function(e){ if (e.target === lb) closeLightbox(); });
+    document.addEventListener('keydown', function(e){
+      if (!lb.classList.contains('open')) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowLeft') show(current - 1);
+      if (e.key === 'ArrowRight') show(current + 1);
+    });
+  }
+})();
+</script>
+
 </body>
 </html>

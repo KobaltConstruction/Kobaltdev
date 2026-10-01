@@ -97,10 +97,10 @@
 
 <div class="stats">
   <div class="wrap">
-    <div class="stat"><div class="num">15+</div><div class="label">Years in Business</div></div>
-    <div class="stat"><div class="num">3</div><div class="label">Regions Served</div></div>
+    <div class="stat"><div class="num" data-count-to="15" data-suffix="+">15+</div><div class="label">Years in Business</div></div>
+    <div class="stat"><div class="num" data-count-to="3" data-suffix="">3</div><div class="label">Regions Served</div></div>
     <div class="stat"><div class="num">OSHA</div><div class="label">Certified Crew</div></div>
-    <div class="stat"><div class="num">100%</div><div class="label">Bonded &amp; Licensed</div></div>
+    <div class="stat"><div class="num" data-count-to="100" data-suffix="%">100%</div><div class="label">Bonded &amp; Licensed</div></div>
   </div>
 </div>
 
@@ -182,6 +182,54 @@
       </div>
   </div>
 </section>
+
+<section style="padding-bottom:20px;">
+  <div class="wrap">
+    <div class="section-head" style="text-align:center;">
+      <div class="eyebrow">Areas Served</div>
+      <h2>Where We've Built</h2>
+      <p>From municipal parks to national retail builds, our work spans the Poconos, Greater Scranton, and the Lehigh Valley. Explore the map to see what we've built near you.</p>
+    </div>
+    <div class="areas-map-wrap">
+      <div id="areas-leaflet-map-home" style="height:380px;"></div>
+    </div>
+  </div>
+</section>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script>
+(function(){
+  var sites = [{"name": "Kobalt Construction HQ", "lat": 41.1396, "lon": -75.3588, "hq": true, "href": null}, {"name": "Ann Street Park", "lat": 41.3194, "lon": -74.7977, "href": "ann-street-park.html"}, {"name": "Capouse Avenue Park", "lat": 41.4241, "lon": -75.6525, "href": "capouse-avenue-park.html"}, {"name": "VFW Memorial", "lat": 41.4668, "lon": -75.6215, "href": "vfw-memorial-dickson-city.html"}, {"name": "12th Ward Park", "lat": 40.9618, "lon": -75.9886, "href": "12th-ward-park.html"}, {"name": "Carbon County Emergency Training Center", "lat": 40.879, "lon": -75.7778, "href": "carbon-county-emergency-training-center.html"}, {"name": "Frances Slocum State Park", "lat": 41.3474, "lon": -75.8933, "href": "frances-slocum-state-park.html"}, {"name": "Crestwood School", "lat": 41.1397, "lon": -75.9037, "href": "crestwood-school.html"}, {"name": "Westfall Twp Municipal Building", "lat": 41.386, "lon": -74.7141, "href": "westfall-twp-municipal-building.html"}, {"name": "Marshalls Falls Park", "lat": 41.0519, "lon": -75.1376, "href": "marshalls-falls-park.html"}, {"name": "Weis Supermarkets", "lat": 41.1208, "lon": -75.3734, "href": "weis-supermarkets.html"}, {"name": "Lowes Warehouse", "lat": 41.1228, "lon": -75.3763, "href": "lowes-warehouse.html"}, {"name": "West Hazleton Borough", "lat": 40.9573, "lon": -75.9923, "href": "west-hazleton-borough.html"}, {"name": "AutoZone Wyoming", "lat": 41.301, "lon": -75.8524, "href": "autozone-wyoming.html"}, {"name": "Pocono Mountain School District", "lat": 41.109, "lon": -75.4225, "href": "pocono-mountain-school-district.html"}, {"name": "Wawa Plains Township", "lat": 41.263, "lon": -75.817, "href": "wawa-plains-township.html"}, {"name": "Hilltop Heights", "lat": 41.3801, "lon": -75.6762, "href": "hilltop-heights.html"}, {"name": "Hazleton Area School District", "lat": 40.973, "lon": -75.9928, "href": "hazleton-area-school-district.html"}, {"name": "Luzerne County Flood Authority", "lat": 41.2977, "lon": -75.8611, "href": "luzerne-county-flood-authority.html"}, {"name": "The Estate at Schollhammer's Farms", "lat": 40.9884, "lon": -75.2638, "href": "schollhammers-farms.html"}, {"name": "Bushkill Outreach", "lat": 41.1051, "lon": -75.046, "href": "bushkill-outreach.html"}, {"name": "AutoZone Stroudsburg", "lat": 40.9961, "lon": -75.2527, "href": "autozone-stroudsburg.html"}, {"name": "Jeter Avenue (Bethlehem, PA)", "lat": 40.6185, "lon": -75.378, "href": "jeter-avenue.html"}];
+  var map = L.map('areas-leaflet-map-home', { scrollWheelZoom: false, zoomControl: false }).setView([41.04, -75.35], 9);
+  L.tileLayer('https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=kQmokliMZLlxkt6SPQrQ', {
+    maxZoom: 18,
+    attribution: '&copy; <a href="https://www.maptiler.com/copyright/" target="_blank">MapTiler</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var edges = [[[41.1396, -75.3588], [41.1208, -75.3734]], [[41.1208, -75.3734], [41.1228, -75.3763]], [[41.1228, -75.3763], [41.109, -75.4225]], [[41.1208, -75.3734], [40.9884, -75.2638]], [[40.9884, -75.2638], [40.9961, -75.2527]], [[40.9961, -75.2527], [41.0519, -75.1376]], [[41.0519, -75.1376], [41.1051, -75.046]], [[41.1051, -75.046], [41.3194, -74.7977]], [[41.3194, -74.7977], [41.386, -74.7141]], [[41.109, -75.4225], [41.3801, -75.6762]], [[41.3801, -75.6762], [41.4241, -75.6525]], [[41.4241, -75.6525], [41.4668, -75.6215]], [[41.3801, -75.6762], [41.263, -75.817]], [[41.263, -75.817], [41.301, -75.8524]], [[41.301, -75.8524], [41.2977, -75.8611]], [[41.2977, -75.8611], [41.3474, -75.8933]], [[41.263, -75.817], [41.1397, -75.9037]], [[41.1397, -75.9037], [40.973, -75.9928]], [[40.973, -75.9928], [40.9618, -75.9886]], [[40.9618, -75.9886], [40.9573, -75.9923]], [[40.9618, -75.9886], [40.879, -75.7778]], [[40.9884, -75.2638], [40.6185, -75.378]]];
+  edges.forEach(function(e){
+    L.polyline(e, { color: '#E24B4A', weight: 2.5, opacity: 0.75, dashArray: '8, 7' }).addTo(map);
+  });
+  var pNum = 0;
+  sites.forEach(function(s){
+    var label = s.hq ? 'HQ' : (++pNum);
+    var size = s.hq ? 34 : 26;
+    var icon = L.divIcon({
+      className: 'kobalt-pin-icon' + (s.hq ? ' hq' : ''),
+      html: label,
+      iconSize: [size, size],
+      iconAnchor: [size/2, size/2]
+    });
+    var marker = L.marker([s.lat, s.lon], { icon: icon, title: s.name }).addTo(map);
+    var content = s.href
+      ? '<strong>' + s.name + '</strong><br><a href="' + s.href + '">View project &rarr;</a>'
+      : '<strong>' + s.name + '</strong>';
+    marker.bindPopup(content, { className: 'kobalt-popup' });
+  });
+  document.querySelectorAll('#' + 'areas-leaflet-map-home' + ' .leaflet-control-zoom a').forEach(function(btn){
+    btn.addEventListener('click', function(e){ e.preventDefault(); }, true);
+  });
+})();
+</script>
 
 <section id="projects">
   <div class="wrap">
@@ -362,6 +410,116 @@
   </div>
   <div class="foot-bottom">© 2026 Kobalt Construction Inc. All Rights Reserved. &nbsp;|&nbsp; <a href="legal-policies.html" style="color:inherit; opacity:.8;">Legal &amp; Policies</a></div>
 </footer>
+
+<script>
+(function(){
+  var nums = document.querySelectorAll('.num[data-count-to]');
+  if (!nums.length) return;
+  function animateCount(el){
+    var target = parseInt(el.getAttribute('data-count-to'), 10);
+    var suffix = el.getAttribute('data-suffix') || '';
+    var duration = 1300;
+    var start = null;
+    function step(ts){
+      if (!start) start = ts;
+      var progress = Math.min((ts - start) / duration, 1);
+      var eased = 1 - Math.pow(1 - progress, 3);
+      el.textContent = Math.round(eased * target) + suffix;
+      if (progress < 1) requestAnimationFrame(step);
+      else el.textContent = target + suffix;
+    }
+    requestAnimationFrame(step);
+  }
+  var statsBar = document.querySelector('.stats');
+  if (!statsBar || !('IntersectionObserver' in window)) {
+    nums.forEach(animateCount);
+    return;
+  }
+  var observer = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if (entry.isIntersecting) {
+        nums.forEach(animateCount);
+        observer.unobserve(statsBar);
+      }
+    });
+  }, { threshold: 0.4 });
+  observer.observe(statsBar);
+})();
+</script>
+
+<script>
+(function(){
+  // Scroll-reveal animation for sections (skips the first section to avoid hero flicker)
+  var sections = document.querySelectorAll('section');
+  if (sections.length > 1 && 'IntersectionObserver' in window) {
+    var revealObserver = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    sections.forEach(function(sec, i){
+      if (i === 0) return;
+      sec.classList.add('reveal-section');
+      revealObserver.observe(sec);
+    });
+  }
+
+  // Photo gallery lightbox
+  var galleryImgs = document.querySelectorAll('.project-gallery img');
+  if (galleryImgs.length) {
+    var images = Array.prototype.map.call(galleryImgs, function(img){ return { src: img.src, alt: img.alt }; });
+    var current = 0;
+
+    var lb = document.createElement('div');
+    lb.className = 'kobalt-lightbox';
+    lb.setAttribute('role', 'dialog');
+    lb.setAttribute('aria-modal', 'true');
+    lb.innerHTML =
+      '<button class="kobalt-lightbox-close" aria-label="Close">&times;</button>' +
+      '<button class="kobalt-lightbox-nav kobalt-lightbox-prev" aria-label="Previous photo">&#8249;</button>' +
+      '<img alt="">' +
+      '<button class="kobalt-lightbox-nav kobalt-lightbox-next" aria-label="Next photo">&#8250;</button>' +
+      '<div class="kobalt-lightbox-count"></div>';
+    document.body.appendChild(lb);
+
+    var lbImg = lb.querySelector('img');
+    var lbCount = lb.querySelector('.kobalt-lightbox-count');
+
+    function show(i){
+      current = (i + images.length) % images.length;
+      lbImg.src = images[current].src;
+      lbImg.alt = images[current].alt;
+      lbCount.textContent = (current + 1) + ' / ' + images.length;
+    }
+    function openLightbox(i){
+      show(i);
+      lb.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeLightbox(){
+      lb.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    galleryImgs.forEach(function(img, i){
+      img.addEventListener('click', function(){ openLightbox(i); });
+    });
+    lb.querySelector('.kobalt-lightbox-close').addEventListener('click', closeLightbox);
+    lb.querySelector('.kobalt-lightbox-prev').addEventListener('click', function(){ show(current - 1); });
+    lb.querySelector('.kobalt-lightbox-next').addEventListener('click', function(){ show(current + 1); });
+    lb.addEventListener('click', function(e){ if (e.target === lb) closeLightbox(); });
+    document.addEventListener('keydown', function(e){
+      if (!lb.classList.contains('open')) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowLeft') show(current - 1);
+      if (e.key === 'ArrowRight') show(current + 1);
+    });
+  }
+})();
+</script>
 
 </body>
 </html>

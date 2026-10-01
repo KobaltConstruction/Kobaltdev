@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Kobalt HQ",
+    "href": null,
+    "x_pct": 51.04,
+    "y_pct": 39.02,
+    "num": "HQ"
+  },
+  {
+    "name": "Ann Street Park",
+    "href": "ann-street-park.html",
+    "x_pct": 86.94,
+    "y_pct": 23.9,
+    "num": 1
+  },
+  {
+    "name": "Capouse Avenue Park",
+    "href": "capouse-avenue-park.html",
+    "x_pct": 30.12,
+    "y_pct": 14.02,
+    "num": 2
+  },
+  {
+    "name": "VFW Memorial",
+    "href": "vfw-memorial-dickson-city.html",
+    "x_pct": 32.18,
+    "y_pct": 10.0,
+    "num": 3
+  },
+  {
+    "name": "12th Ward Park",
+    "href": "12th-ward-park.html",
+    "x_pct": 9.83,
+    "y_pct": 55.49,
+    "num": 4
+  },
+  {
+    "name": "Carbon County ETC",
+    "href": "carbon-county-emergency-training-center.html",
+    "x_pct": 21.79,
+    "y_pct": 65.43,
+    "num": 5
+  },
+  {
+    "name": "Frances Slocum State Park",
+    "href": "frances-slocum-state-park.html",
+    "x_pct": 14.11,
+    "y_pct": 21.26,
+    "num": 6
+  },
+  {
+    "name": "Crestwood School",
+    "href": "crestwood-school.html",
+    "x_pct": 13.42,
+    "y_pct": 40.85,
+    "num": 7
+  },
+  {
+    "name": "Westfall Twp Municipal Building",
+    "href": "westfall-twp-municipal-building.html",
+    "x_pct": 92.5,
+    "y_pct": 17.62,
+    "num": 8
+  },
+  {
+    "name": "Marshalls Falls Park",
+    "href": "marshalls-falls-park.html",
+    "x_pct": 64.35,
+    "y_pct": 49.13,
+    "num": 9
+  },
+  {
+    "name": "Weis Supermarkets",
+    "href": "weis-supermarkets.html",
+    "x_pct": 48.25,
+    "y_pct": 45.83,
+    "num": 10
+  },
+  {
+    "name": "Lowes Warehouse",
+    "href": "lowes-warehouse.html",
+    "x_pct": 47.92,
+    "y_pct": 41.12,
+    "num": 11
+  },
+  {
+    "name": "West Hazleton Borough",
+    "href": "west-hazleton-borough.html",
+    "x_pct": 6.63,
+    "y_pct": 60.7,
+    "num": 12
+  },
+  {
+    "name": "AutoZone Wyoming",
+    "href": "autozone-wyoming.html",
+    "x_pct": 18.15,
+    "y_pct": 24.84,
+    "num": 13
+  },
+  {
+    "name": "Pocono Mountain School District",
+    "href": "pocono-mountain-school-district.html",
+    "x_pct": 45.0,
+    "y_pct": 43.7,
+    "num": 14
+  },
+  {
+    "name": "Wawa Plains Township",
+    "href": "wawa-plains-township.html",
+    "x_pct": 19.2,
+    "y_pct": 29.29,
+    "num": 15
+  },
+  {
+    "name": "Hilltop Heights",
+    "href": "hilltop-heights.html",
+    "x_pct": 28.54,
+    "y_pct": 18.18,
+    "num": 16
+  },
+  {
+    "name": "Hazleton Area School District",
+    "href": "hazleton-area-school-district.html",
+    "x_pct": 6.35,
+    "y_pct": 56.05,
+    "num": 17
+  },
+  {
+    "name": "Luzerne County Flood Authority",
+    "href": "luzerne-county-flood-authority.html",
+    "x_pct": 14.92,
+    "y_pct": 26.66,
+    "num": 18
+  },
+  {
+    "name": "The Estate at Schollhammer's Farms",
+    "href": "schollhammers-farms.html",
+    "x_pct": 54.92,
+    "y_pct": 56.14,
+    "num": 19
+  },
+  {
+    "name": "Bushkill Outreach",
+    "href": "bushkill-outreach.html",
+    "x_pct": 70.44,
+    "y_pct": 44.11,
+    "num": 20
+  },
+  {
+    "name": "AutoZone Stroudsburg",
+    "href": "autozone-stroudsburg.html",
+    "x_pct": 57.74,
+    "y_pct": 53.37,
+    "num": 21
+  },
+  {
+    "name": "Jeter Avenue (Bethlehem, PA)",
+    "href": "jeter-avenue.html",
+    "x_pct": 48.37,
+    "y_pct": 90.0,
+    "num": 22
+  }
+]
