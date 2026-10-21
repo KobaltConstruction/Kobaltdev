@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: YOUR-GITHUB-USERNAME/kobalt-site
+  repo: KobaltConstruction/Kobaltdev
   branch: main
 
 # Where uploaded photos land, and the path used to reference them in pages.
@@ -35,6 +35,8 @@ collections:
         field: {label: "Paragraph", name: "paragraph", widget: "text"}
       - {label: "Project Team & Partners (optional, one line)", name: "team_credit", widget: "string", required: false}
       - {label: "Source Note (optional, e.g. 'Featured on WNEP')", name: "source_note", widget: "string", required: false}
+      - {label: "Work Shown on the Concrete / Paving Pages (optional)", name: "capabilities", widget: "select", multiple: true, required: false, options: [{label: "Site Work", value: "sitework"}, {label: "Paving", value: "paving"}, {label: "Concrete", value: "concrete"}], hint: "Only tick these if the write-up documents our crews doing that work."}
+      - {label: "Search Result Description (optional, 70-155 characters)", name: "meta_description", widget: "string", required: false}
       - label: "Additional Photos"
         name: "gallery"
         widget: "list"
@@ -42,6 +44,25 @@ collections:
         fields:
           - {label: "Photo", name: "image", widget: "image"}
           - {label: "Description", name: "alt", widget: "string"}
+      - label: "Project Updates (newest shows on the homepage for 90 days)"
+        name: "updates"
+        widget: "list"
+        required: false
+        summary: "{{fields.date}}: {{fields.headline}}"
+        fields:
+          - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false}
+          - {label: "Headline (one line, shown on the homepage)", name: "headline", widget: "string"}
+          - label: "Text"
+            name: "text"
+            widget: "list"
+            field: {label: "Paragraph", name: "paragraph", widget: "text"}
+          - label: "Photos (the first one also goes on the homepage)"
+            name: "photos"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "Photo", name: "image", widget: "image"}
+              - {label: "Description", name: "alt", widget: "string"}
 
   - name: "blog"
     label: "Blog Posts"
@@ -61,8 +82,12 @@ collections:
         name: "paragraphs"
         widget: "list"
         field: {label: "Paragraph", name: "paragraph", widget: "text"}
-      - {label: "Source Article Title", name: "source_title", widget: "string"}
-      - {label: "Source Publisher (full name)", name: "source_publisher", widget: "string"}
-      - {label: "Source Short Name (e.g. NAHB)", name: "source_short", widget: "string"}
-      - {label: "Source Publish Date", name: "source_date", widget: "string"}
-      - {label: "Source URL", name: "source_url", widget: "string"}
+      - {label: "Source Article Title", name: "source_title", widget: "string", required: false}
+      - {label: "Source Publisher (full name)", name: "source_publisher", widget: "string", required: false}
+      - {label: "Source Short Name (e.g. NAHB)", name: "source_short", widget: "string", required: false}
+      - {label: "Source Publish Date", name: "source_date", widget: "string", required: false}
+      - {label: "Source URL", name: "source_url", widget: "string", required: false}
+      - {label: "Written by Kobalt (hides the source box)", name: "original", widget: "boolean", default: false, required: false}
+      - {label: "Published (e.g. October 2026)", name: "published", widget: "string", required: false}
+      - {label: "Related Service Link Text (optional)", name: "related_label", widget: "string", required: false}
+      - {label: "Related Service Page (optional, e.g. public.html)", name: "related_href", widget: "string", required: false}

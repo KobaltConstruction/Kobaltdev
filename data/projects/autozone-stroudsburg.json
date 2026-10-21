@@ -7,18 +7,29 @@
   "hero_alt": "Completed AutoZone retail building, Stroudsburg",
   "source_note": "",
   "paragraphs": [
-    "Kobalt Construction recently completed this ground-up AutoZone in Stroudsburg for Grace Construction. Our scope covered demolition, stormwater management, earthwork, paving, concrete, work under a Highway Occupancy Permit, and the building's foundations and masonry \u2014 a full-scope job that ran through several of our teams.",
-    "The site's standout challenge was stormwater: two large underground infiltration basins, fed by 36-inch and 48-inch pipe and surrounded by stone aggregate, on a small footprint. Getting proper drainage under the basins took considerable soil testing and amendment work before construction could proceed. Between the basin requirements, a tight site, and winter conditions, it was a demanding job \u2014 one our site crew, led by Pete, handled well from start to finish.",
-    "With the building complete, the remaining work \u2014 HOP highway shoulder improvements \u2014 is scheduled for spring."
+    "Kobalt Construction recently completed this ground-up AutoZone in Stroudsburg for Grace Construction. Our scope covered demolition, stormwater management, earthwork, paving, concrete, work under a Highway Occupancy Permit, and the building's foundations and masonry — a full-scope job that ran through several of our teams.",
+    "The site's standout challenge was stormwater: two large underground infiltration basins, fed by 36-inch and 48-inch pipe and surrounded by stone aggregate, on a small footprint. Getting proper drainage under the basins took considerable soil testing and amendment work before construction could proceed. Between the basin requirements, a tight site, and winter conditions, it was a demanding job — one our site crew, led by Pete, handled well from start to finish.",
+    "With the building complete, the remaining work — HOP highway shoulder improvements — is scheduled for spring."
   ],
   "team_credit": "Client: Grace Construction. Site crew lead: Pete.",
   "gallery": [
     {
       "image": "autozone-labor.jpg",
-      "alt": "AutoZone | Stroudsburg, PA \u2014 additional photo"
+      "alt": "AutoZone | Stroudsburg, PA — additional photo"
     }
   ],
   "summary": "Ground-up retail construction and site work.",
   "address": "",
-  "order": 1
+  "order": 1,
+  "capabilities": [
+    "sitework",
+    "paving",
+    "concrete"
+  ],
+  "carousel": {
+    "order": 2,
+    "label": "AutoZone — Stroudsburg",
+    "image": "autozone-labor.jpg",
+    "alt": "Site work at AutoZone build, Stroudsburg"
+  }
 }

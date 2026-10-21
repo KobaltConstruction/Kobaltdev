@@ -1,0 +1,100 @@
+{
+  "slug": "concrete",
+  "capability": "concrete",
+  "title": "Concrete Contractor in the Poconos & Scranton | Kobalt Construction",
+  "meta_description": "Concrete foundations, slabs, curbing, sidewalks, and decorative concrete across the Poconos and Scranton area from Kobalt Construction's concrete and masonry crews.",
+  "eyebrow": "What We Build",
+  "h1": "Concrete Contractor in the Poconos & Scranton",
+  "subtitle": "Foundations, slabs, curbing, sidewalks, and decorative concrete for commercial, public, and residential projects.",
+  "intro": [
+    "Kobalt Construction's concrete and masonry crews pour and finish the structures and surfaces other trades build on: footings and foundation walls, slabs, curbing, sidewalks, and decorative plaza work for clients across the Poconos, the Wyoming Valley, and the Scranton area.",
+    "On several projects, including AutoZone in Stroudsburg and Pocono Mountain School District, concrete was one part of a larger scope that ran through our sitework, concrete, and paving crews at the same time, coordinated by a single contractor."
+  ],
+  "includes_heading": "What This Includes",
+  "cards": [
+    {
+      "icon": "M3 21h18M6 21V9l6-4 6 4v12M10 21v-5h4v5",
+      "title": "Foundations & Slabs",
+      "text": "Footings, foundation walls, and slab-on-grade for commercial buildings and multi-story residential units."
+    },
+    {
+      "icon": "M4 17h16M4 12h16M4 7h16",
+      "title": "Curbing",
+      "text": "Poured and finished concrete curbing for parking and loading areas."
+    },
+    {
+      "icon": "M3 3h18v18H3zM3 9h18M3 15h18M9 3v18M15 3v18",
+      "title": "Sidewalks & Flatwork",
+      "text": "Concrete sidewalks and flatwork for parks, schools, and public spaces."
+    },
+    {
+      "icon": "M5 13l4 4L19 7",
+      "title": "Structural Concrete",
+      "text": "Poured concrete walls and below-grade structures, from salt sheds to tank structures."
+    },
+    {
+      "icon": "M14 6l7 7-4 4-7-7zM2 20l6-1 11-11-5-5L3 14l-1 6z",
+      "title": "Decorative & Stamped Concrete",
+      "text": "Colored and stamped concrete plazas and seat walls finished with custom stone caps."
+    },
+    {
+      "icon": "M12 21s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z",
+      "title": "Concrete & Masonry Together",
+      "text": "Concrete and masonry crews working side by side on foundations, walls, and memorials."
+    }
+  ],
+  "highlights_heading": "Concrete Work We've Documented",
+  "highlights": [
+    {
+      "label": "Foundations and slabs.",
+      "html": "At <a href=\"hilltop-heights.html\">Hilltop Heights in Scranton</a>, our concrete and masonry teams carried four multi-story residential units from footings to finished foundations, including slab-on-grade construction. At <a href=\"autozone-wyoming.html\">AutoZone in Wyoming</a>, our concrete and masonry crews built the site's foundations."
+    },
+    {
+      "label": "Structures and flatwork.",
+      "html": "<a href=\"bushkill-outreach.html\">Bushkill Outreach</a> began with concrete flatwork and a below-grade concrete tank structure and was carried from foundation to finish, and the <a href=\"plainfield-twp-salt-shed.html\">Plainfield Township salt shed</a> is a ground-up building with poured concrete walls."
+    },
+    {
+      "label": "Curbing.",
+      "html": "At the <a href=\"lowes-warehouse.html\">Lowe's warehouse in Mt. Pocono</a>, our team poured and finished miles of concrete curbing across the property's parking and loading areas."
+    },
+    {
+      "label": "Sidewalks.",
+      "html": "<a href=\"ann-street-park.html\">Ann Street Park</a> in Milford includes concrete sidewalks alongside dry-stacked fieldstone walls, and the <a href=\"pocono-mountain-school-district.html\">Pocono Mountain School District</a> sidewalk replacement brought our sitework, concrete, and paving crews together ahead of student orientation."
+    },
+    {
+      "label": "Decorative concrete.",
+      "html": "At the <a href=\"vfw-memorial-dickson-city.html\">VFW Memorial in Dickson City</a>, our concrete and masonry team built a colored concrete seat wall finished with custom blue stone caps and laid stamped colored concrete in two distinct patterns across the plaza."
+    },
+    {
+      "label": "Partners and suppliers.",
+      "html": "On some projects we work alongside ready-mix suppliers and specialty trade partners. They are credited on each project's page."
+    }
+  ],
+  "areas_heading": "Where We Work",
+  "areas": "Our concrete work spans Mt. Pocono, Bushkill, and Stroudsburg in the Poconos; Milford and Plainfield Township; Wyoming in the Wyoming Valley; and Scranton and Dickson City in the Scranton area.",
+  "see_also": [
+    {
+      "label": "Site work",
+      "href": "site-work.html"
+    },
+    {
+      "label": "Paving",
+      "href": "paving.html"
+    },
+    {
+      "label": "Commercial construction",
+      "href": "commercial.html"
+    },
+    {
+      "label": "Public works",
+      "href": "public.html"
+    },
+    {
+      "label": "General contracting",
+      "href": "general-contracting.html"
+    }
+  ],
+  "projects_heading": "Concrete Projects",
+  "cta_heading": "Planning a Concrete Project?",
+  "cta_text": "Tell us about the site and we'll get back to you within one business day."
+}

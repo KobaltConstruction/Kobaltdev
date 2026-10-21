@@ -1,0 +1,55 @@
+{
+  "slug": "mount-pocono-municipal-authority",
+  "name": "Mount Pocono Municipal Authority — Solids Handling Building",
+  "tag": "Public",
+  "location": "Mount Pocono, PA",
+  "hero_image": "mpma-treatment-plant.jpg",
+  "hero_alt": "Mount Pocono Municipal Authority sewer treatment plant, site of the new Solids Handling Building",
+  "source_note": "Featured in the Mount Pocono Municipal Authority newsletter",
+  "paragraphs": [
+    "Kobalt Construction was awarded the contract to build a new Solids Handling Building at the Mount Pocono Municipal Authority's sewer treatment plant, a project funded through a COVID-ARPA H2O grant the Authority received in 2024. The building will house a new Huber screw press, chosen by the Authority's operations team after pilot studies of several systems, with ARRO Consulting designing the implementation.",
+    "According to the Authority, the screw press will change how it handles sludge. Today, liquid sludge at roughly 2% solids is hauled to another processing facility; once the project is complete, the Authority will produce a cake solid of roughly 20% solids that can be hauled to a landfill, cutting hauling costs and benefiting the environment.",
+    "Bidding ran from May through June 2026, and our crews began construction in August. Our scope includes challenging utility relocation at the plant, new utilities, paving, erosion control, and the new building itself. The first phase is relocating existing utilities on a property more than 50 years old, where the site's age brings obstacles that call for careful digging and close communication with Authority staff. Next comes the building foundation, cut into the existing hillside so trucks will have easy access to pick up the dumpster.",
+    "This is one of two projects we started at the same time in the Borough of Mount Pocono, just minutes from our office, alongside the new <a href=\"mount-pocono-memorial-park.html\">Mount Pocono Memorial Park</a>. It is always great to work with the Authority, a client of ours over the years, and a shout-out goes to Richie and our site team on this challenging site."
+  ],
+  "team_credit": "Owner: Mount Pocono Municipal Authority. Engineer: ARRO Consulting.",
+  "gallery": [
+    {
+      "image": "mpma-building-section.jpg",
+      "alt": "Building section drawing of the new Solids Handling Building, showing the screw press room, dumpster room, and sludge feed pump room"
+    }
+  ],
+  "summary": "New Solids Handling Building at the sewer treatment plant, with utility relocation, paving, and erosion control.",
+  "address": "Mount Pocono, PA",
+  "order": -2,
+  "capabilities": [
+    "sitework",
+    "paving"
+  ],
+  "updates": [
+    {
+      "date": "2026-10-19",
+      "headline": "Utility relocation underway, and a shout-out in the Authority's newsletter",
+      "text": [
+        "We have been on site for about the past month relocating existing utilities to prepare for the new building. It is always great to work again with past clients and associates like the Authority and ARRO Consulting.",
+        "The Authority was kind enough to recognize our crews' hard work on a challenging site in its latest newsletter: &ldquo;We have been fortunate to have a great team from Kobalt Construction as conditions in the Poconos are never the best for digging.&rdquo; The full article, &ldquo;Going With the Flow,&rdquo; is pictured below."
+      ],
+      "photos": [
+        {
+          "image": "mpma-utility-relocation.jpg",
+          "alt": "Trench exposing existing utilities beside a concrete structure at the Mount Pocono Municipal Authority site"
+        },
+        {
+          "image": "mpma-newsletter-going-with-the-flow.jpg",
+          "alt": "Mount Pocono Municipal Authority newsletter article, Going With the Flow: Screw Press Project, recognizing the Kobalt Construction team"
+        }
+      ]
+    }
+  ],
+  "carousel": {
+    "order": 0,
+    "label": "MPMA Solids Building",
+    "image": "mpma-treatment-plant.jpg",
+    "alt": "Mount Pocono Municipal Authority sewer treatment plant, where Kobalt is building a new Solids Handling Building"
+  }
+}

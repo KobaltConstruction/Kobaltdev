@@ -1,0 +1,21 @@
+{
+  "slug": "scranton",
+  "label": "the Scranton Area",
+  "short": "Scranton",
+  "title": "Scranton-Area Contractor: Concrete & Site Work | Kobalt",
+  "meta_description": "Concrete and site work in the Scranton area from Kobalt Construction, including Hilltop Heights, Capouse Avenue Park, and the VFW Memorial in Dickson City.",
+  "h1": "Concrete & Site Work in Scranton and Lackawanna County",
+  "subtitle": "Affordable housing, a $1.8 million park revitalization, and a veterans memorial in Scranton and Dickson City.",
+  "intro": [
+    "Our work in the Scranton area includes Hilltop Heights, a City of Scranton housing initiative for developer Quandell Construction; the $1.8 million revitalization of the former Penn Ridge pool site into Capouse Avenue Park in the Pine Brook neighborhood; and a veterans memorial plaza for Dickson City Borough.",
+    "Those projects drew on our site work and concrete crews. For paving, which we do across the region, see our <a href=\"paving.html\" style=\"color:var(--cobalt); font-weight:600; text-decoration:underline;\">paving page</a>."
+  ],
+  "projects": [
+    "hilltop-heights",
+    "capouse-avenue-park",
+    "vfw-memorial-dickson-city"
+  ],
+  "eyebrow": "Areas Served",
+  "cta_heading": "Planning a Project in the Scranton Area?",
+  "cta_text": "Tell us about the site and we'll get back to you within one business day."
+}

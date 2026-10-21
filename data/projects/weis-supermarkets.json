@@ -14,10 +14,13 @@
   "gallery": [
     {
       "image": "weis-alt1.jpg",
-      "alt": "Weis Supermarkets | Mt. Pocono, PA \u2014 additional photo"
+      "alt": "Weis Supermarkets | Mt. Pocono, PA — additional photo"
     }
   ],
   "summary": "Parking lot milling and repaving.",
   "address": "601 PA-940 Ste 116, Mt Pocono, PA 18344",
-  "order": 15
+  "order": 15,
+  "capabilities": [
+    "paving"
+  ]
 }

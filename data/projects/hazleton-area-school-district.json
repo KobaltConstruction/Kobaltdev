@@ -14,10 +14,19 @@
   "gallery": [
     {
       "image": "hazleton-labor.jpg",
-      "alt": "Hazleton Area School District \u2014 additional photo"
+      "alt": "Hazleton Area School District — additional photo"
     }
   ],
   "summary": "Parking lot paving completed ahead of the start of the school year.",
   "address": "",
-  "order": 7
+  "order": 7,
+  "capabilities": [
+    "paving"
+  ],
+  "carousel": {
+    "order": 7,
+    "label": "Hazleton SD Paving",
+    "image": "hazleton-labor.jpg",
+    "alt": "Asphalt delivery at Hazleton Area School District"
+  }
 }

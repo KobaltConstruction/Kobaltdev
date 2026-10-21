@@ -1,0 +1,33 @@
+{
+  "slug": "mount-pocono-memorial-park",
+  "name": "Mount Pocono Memorial Park",
+  "tag": "Public",
+  "location": "Mount Pocono, PA",
+  "hero_image": "mount-pocono-memorial-school-drive.jpg",
+  "hero_alt": "School Drive at Pocono Boulevard (Route 611) in the Borough of Mount Pocono",
+  "source_note": "",
+  "paragraphs": [
+    "Kobalt Construction is building a new memorial park for the Borough of Mount Pocono, just minutes from our office. The project includes erosion control, new utilities, paving, walking trails, and concrete sidewalks, along with some minor Highway Occupancy Permit (HOP) work.",
+    "We have completed numerous successful projects for the Borough over the years, and we are excited to add this one. It is also great to be working with the design team at Barry Isett &amp; Associates on another project; our paths cross often, at least two to four times a year over many years.",
+    "This is one of two projects we started at the same time in Mount Pocono, alongside the new <a href=\"mount-pocono-municipal-authority.html\">Solids Handling Building for the Mount Pocono Municipal Authority</a>."
+  ],
+  "team_credit": "Owner: Borough of Mount Pocono. Design: Barry Isett &amp; Associates.",
+  "gallery": [
+    {
+      "image": "mount-pocono-memorial-site-plan.jpg",
+      "alt": "Site plan for Mount Pocono Memorial Park, showing the paved walking trail, sidewalks, and parking along School Drive"
+    }
+  ],
+  "summary": "New borough park with walking trails, concrete sidewalks, paving, utilities, and erosion control.",
+  "address": "Mount Pocono, PA",
+  "order": -1,
+  "capabilities": [
+    "sitework",
+    "paving",
+    "concrete"
+  ],
+  "carousel": {
+    "order": 0,
+    "label": "Mt. Pocono Memorial Park"
+  }
+}

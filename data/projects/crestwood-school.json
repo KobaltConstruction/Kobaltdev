@@ -14,10 +14,14 @@
   "gallery": [
     {
       "image": "crestwood-school-alt1.jpg",
-      "alt": "Crestwood School | Mountain Top, PA \u2014 additional photo"
+      "alt": "Crestwood School | Mountain Top, PA — additional photo"
     }
   ],
   "summary": "Site work, paving, and retaining wall construction.",
   "address": "281 S Mountain Blvd, Mountain Top, PA 18707",
-  "order": 18
+  "order": 18,
+  "capabilities": [
+    "sitework",
+    "paving"
+  ]
 }

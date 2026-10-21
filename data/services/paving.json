@@ -1,0 +1,100 @@
+{
+  "slug": "paving",
+  "capability": "paving",
+  "title": "Paving Contractor in the Poconos & Scranton | Kobalt Construction",
+  "meta_description": "Parking lot and roadway paving in the Poconos, Wyoming Valley, and Scranton area: milling, asphalt, curbing, and striping from Kobalt Construction's paving crew.",
+  "eyebrow": "What We Build",
+  "h1": "Paving Contractor in the Poconos & Scranton",
+  "subtitle": "Parking lots, roadways, trails, and new-construction paving, from milling through the finish coat.",
+  "intro": [
+    "Kobalt Construction's paving crew resurfaces and builds the surfaces people drive and walk on every day: commercial parking lots, residential streets, school lots, park trails, and subdivision roads across the Poconos, the Wyoming Valley, the Lehigh Valley, and Greater Scranton.",
+    "On a resurfacing job, our crew cold-mills the deteriorated surface, then lays and compacts new asphalt, and where the scope calls for it we handle curbing and striping as well. On new construction, the same work extends to the stone base and asphalt surface as part of the larger site package."
+  ],
+  "includes_heading": "What This Includes",
+  "cards": [
+    {
+      "icon": "M4 17h16M4 12h16M4 7h16",
+      "title": "Parking Lot Milling & Repaving",
+      "text": "Cold-milling worn surfaces and laying and compacting new asphalt, phased around store and school operations."
+    },
+    {
+      "icon": "M12 21s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z",
+      "title": "Roadway Paving",
+      "text": "Full-width, curb-to-curb resurfacing for residential and municipal streets."
+    },
+    {
+      "icon": "M3 21h18M6 21V9l6-4 6 4v12M10 21v-5h4v5",
+      "title": "New-Construction Paving",
+      "text": "Stone base through asphalt for subdivision roads and ground-up commercial sites."
+    },
+    {
+      "icon": "M3 3h18v18H3zM3 9h18M3 15h18M9 3v18M15 3v18",
+      "title": "Curbing & Striping",
+      "text": "Poured concrete curbing and final line striping for finished, functional lots."
+    },
+    {
+      "icon": "M14 6l7 7-4 4-7-7zM2 20l6-1 11-11-5-5L3 14l-1 6z",
+      "title": "Trails & Park Paving",
+      "text": "Paved walking trails and ADA-accessible parking for parks and public spaces."
+    },
+    {
+      "icon": "M12 7v5l3 3M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z",
+      "title": "Deadline-Driven Scheduling",
+      "text": "Work sequenced around school calendars and store hours so sites reopen on time."
+    }
+  ],
+  "highlights_heading": "Paving Work We've Documented",
+  "highlights": [
+    {
+      "label": "Parking lots that stay open.",
+      "html": "At <a href=\"weis-supermarkets.html\">Weis Supermarkets in Mt. Pocono</a>, our crew cold-milled the deteriorated surface, then laid and compacted new asphalt, resurfacing the lot in phases so the store stayed accessible to customers."
+    },
+    {
+      "label": "Paving against a deadline.",
+      "html": "For <a href=\"hazleton-area-school-district.html\">Hazleton Area School District</a>, our paving crew resurfaced a lot from base through finish coat before students returned. At <a href=\"pocono-mountain-school-district.html\">Pocono Mountain School District</a>, crews finished new sidewalks and paving around Pocono Mountain West High School ahead of student orientation."
+    },
+    {
+      "label": "Streets and roadways.",
+      "html": "<a href=\"jeter-avenue.html\">Jeter Avenue in Bethlehem</a> was resurfaced curb to curb, and a residential street for <a href=\"west-hazleton-borough.html\">West Hazleton Borough</a> was milled and repaved with access maintained for residents."
+    },
+    {
+      "label": "Retail and distribution sites.",
+      "html": "At the <a href=\"lowes-warehouse.html\">Lowe's warehouse in Mt. Pocono</a>, our team placed and compacted asphalt across the lot, poured curbing, and completed final striping. At <a href=\"autozone-wyoming.html\">AutoZone in Wyoming</a>, our paving team laid the asphalt for the parking lot and access drives, and the <a href=\"wawa-plains-township.html\">Wawa in Plains Township</a> scope included paving and curbing plus a full-width mill and overlay with shoulder widening under a Highway Occupancy Permit."
+    },
+    {
+      "label": "Parks and trails.",
+      "html": "At <a href=\"marshalls-falls-park.html\">Marshalls Falls Park</a> we paved the walking trails and the parking lot, and at <a href=\"dallas-memorial-park.html\">Dallas Memorial Park</a> our paving team wrapped up trail paving and a new ADA-accessible parking lot."
+    },
+    {
+      "label": "New roads and access drives.",
+      "html": "At <a href=\"schollhammers-farms.html\">The Estate at Schollhammer's Farms</a>, roadway construction runs from stone base through asphalt paving. At the <a href=\"carbon-county-emergency-training-center.html\">Carbon County Emergency Training Center</a>, our paving crews laid the asphalt surfaces that provide access for emergency vehicles and personnel."
+    }
+  ],
+  "areas_heading": "Where We Work",
+  "areas": "Our paving work spans Mt. Pocono, Stroudsburg, and East Stroudsburg in the Poconos; Hazleton, West Hazleton, and Mountain Top; Wyoming, Dallas, Plains Township, and Forty Fort in the Wyoming Valley; Nesquehoning in Carbon County; and Bethlehem in the Lehigh Valley. We also serve the Greater Scranton area.",
+  "see_also": [
+    {
+      "label": "Site work",
+      "href": "site-work.html"
+    },
+    {
+      "label": "Concrete work",
+      "href": "concrete.html"
+    },
+    {
+      "label": "Commercial construction",
+      "href": "commercial.html"
+    },
+    {
+      "label": "Public works",
+      "href": "public.html"
+    },
+    {
+      "label": "General contracting",
+      "href": "general-contracting.html"
+    }
+  ],
+  "projects_heading": "Paving Projects",
+  "cta_heading": "Planning a Paving Project?",
+  "cta_text": "Tell us about the site and we'll get back to you within one business day."
+}

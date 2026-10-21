@@ -14,14 +14,17 @@
   "gallery": [
     {
       "image": "12th-ward-park-alt1.jpg",
-      "alt": "12th Ward Park \u2014 additional photo"
+      "alt": "12th Ward Park — additional photo"
     },
     {
       "image": "12th-ward-park-alt2.jpg",
-      "alt": "12th Ward Park \u2014 additional photo"
+      "alt": "12th Ward Park — additional photo"
     }
   ],
   "summary": "New playground, sports court, and site work.",
   "address": "800 McKinley St, Hazleton, PA 18202",
-  "order": 13
+  "order": 13,
+  "capabilities": [
+    "sitework"
+  ]
 }

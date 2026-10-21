@@ -1,0 +1,8 @@
+{
+  "_note": "Fill in any field below, then run: python3 scripts/capability_statement.py. Blank fields are left off the PDF; if all three of license/bonding/insurance are blank it says 'documentation available on request'.",
+  "license": "",
+  "bonding": "",
+  "insurance": "",
+  "safety": ["OSHA-certified crew"],
+  "years": "15+"
+}

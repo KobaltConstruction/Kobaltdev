@@ -1,0 +1,100 @@
+{
+  "slug": "site-work",
+  "capability": "sitework",
+  "title": "Site Work & Excavation in the Poconos | Kobalt Construction",
+  "meta_description": "Excavation, earthwork, stormwater, utilities, and site development for commercial, public, and residential projects across the Poconos and Northeastern PA.",
+  "eyebrow": "What We Build",
+  "h1": "Site Work & Excavation Contractor in the Poconos & Scranton",
+  "subtitle": "Clearing, excavation, stormwater, utilities, and retaining walls: the groundwork that gets a site ready to build on.",
+  "intro": [
+    "Every project starts with the ground. Our crews handle the site work that comes before and around the building: demolition and clearing, excavation and grading, stormwater and erosion control, utilities, retaining walls, and the stone base that paving and concrete sit on, for commercial, public, and residential projects across the Poconos, the Wyoming Valley, and the Scranton area.",
+    "On many jobs, site work is one part of a full-scope package. At <a href=\"autozone-wyoming.html\" style=\"color:var(--cobalt); font-weight:600;\">AutoZone in Wyoming</a>, the project ran from demolition and utilities through foundations and paving, and at <a href=\"autozone-stroudsburg.html\" style=\"color:var(--cobalt); font-weight:600;\">AutoZone in Stroudsburg</a> the scope covered demolition, stormwater management, earthwork, paving, concrete, and work under a Highway Occupancy Permit."
+  ],
+  "includes_heading": "What This Includes",
+  "cards": [
+    {
+      "icon": "M14 6l7 7-4 4-7-7zM2 20l6-1 11-11-5-5L3 14l-1 6z",
+      "title": "Clearing, Demolition & Earthwork",
+      "text": "Site demolition, land clearing, bulk excavation, and grading to shape a site for construction."
+    },
+    {
+      "icon": "M13 2 3 14h7l-1 8 10-12h-7z",
+      "title": "Stormwater & Erosion Control",
+      "text": "Underground infiltration basins, detention basins, rain gardens, and erosion control that protects the site during construction."
+    },
+    {
+      "icon": "M12 21s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z",
+      "title": "Utilities",
+      "text": "Water, sewer, and electrical utility installation to support new buildings and facilities."
+    },
+    {
+      "icon": "M3 3h18v18H3zM3 9h18M3 15h18M9 3v18M15 3v18",
+      "title": "Retaining Walls & Grading",
+      "text": "Engineered retaining walls and grading that make sloped sites buildable and stable."
+    },
+    {
+      "icon": "M4 17h16M4 12h16M4 7h16",
+      "title": "Roadway & Access Work",
+      "text": "Stone base through asphalt for site roads, plus roadway improvements under a Highway Occupancy Permit."
+    },
+    {
+      "icon": "M5 13l4 4L19 7",
+      "title": "On-Site Stone Recycling",
+      "text": "Crushing site stone into usable product instead of hauling it off the property."
+    }
+  ],
+  "highlights_heading": "Site Work We've Documented",
+  "highlights": [
+    {
+      "label": "Sloped and rocky sites.",
+      "html": "At the <a href=\"wawa-plains-township.html\">Wawa in Plains Township</a>, the scope included clearing and grubbing, massive bulk excavation with engineered retaining walls to make the sloped site buildable, and utility installation. Large boulders were crushed on-site into usable stone product rather than hauled away."
+    },
+    {
+      "label": "Stormwater on tight footprints.",
+      "html": "The standout challenge at <a href=\"autozone-stroudsburg.html\">AutoZone in Stroudsburg</a> was stormwater: two large underground infiltration basins, fed by 36-inch and 48-inch pipe and surrounded by stone aggregate, on a small footprint, with considerable soil testing and amendment work to get proper drainage underneath."
+    },
+    {
+      "label": "Full site packages.",
+      "html": "At the <a href=\"luzerne-county-flood-authority.html\">Luzerne County Flood Authority</a>, our scope covers demolition, earthwork, erosion control, stormwater management, a bio-retention rain garden, and paving. At <a href=\"autozone-wyoming.html\">AutoZone in Wyoming</a>, our team handled demolition, utilities, and stormwater and erosion control before the foundations and paving."
+    },
+    {
+      "label": "Public safety and municipal sites.",
+      "html": "At the <a href=\"carbon-county-emergency-training-center.html\">Carbon County Emergency Training Center</a>, our scope began with land clearing and earthwork on a 10-acre site, followed by water, sewer, and electrical utilities, with stormwater management and erosion control throughout."
+    },
+    {
+      "label": "New communities.",
+      "html": "At <a href=\"schollhammers-farms.html\">The Estate at Schollhammer's Farms</a>, our scope covers site layout, erosion control, tree clearing, stormwater conveyance, a rain garden and detention basin, bulk grading, and roadway construction, well before the first home takes shape. At <a href=\"hilltop-heights.html\">Hilltop Heights in Scranton</a>, it included excavation and stone drains ahead of footings and foundation walls."
+    },
+    {
+      "label": "Parks and school sites.",
+      "html": "At <a href=\"marshalls-falls-park.html\">Marshalls Falls Park</a>, our team built a retaining wall, rain garden, and paved parking lot, and at <a href=\"crestwood-school.html\">Crestwood School</a> a new retaining wall and paved roadway stabilize a sloped site near the athletic complex."
+    }
+  ],
+  "areas_heading": "Where We Work",
+  "areas": "Our site work spans Plains Township, Wyoming, and Forty Fort in the Wyoming Valley; Stroudsburg, East Stroudsburg, and the Pocono Mountains; Hazleton and Mountain Top; Nesquehoning in Carbon County; and Scranton.",
+  "see_also": [
+    {
+      "label": "Concrete",
+      "href": "concrete.html"
+    },
+    {
+      "label": "Paving",
+      "href": "paving.html"
+    },
+    {
+      "label": "Commercial construction",
+      "href": "commercial.html"
+    },
+    {
+      "label": "Public works",
+      "href": "public.html"
+    },
+    {
+      "label": "General contracting",
+      "href": "general-contracting.html"
+    }
+  ],
+  "projects_heading": "Site Work Projects",
+  "cta_heading": "Planning a Site Work Project?",
+  "cta_text": "Tell us about the site and we'll get back to you within one business day."
+}

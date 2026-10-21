@@ -14,5 +14,8 @@
   "gallery": [],
   "summary": "Full-width roadway paving.",
   "address": "Bethlehem, PA 18015",
-  "order": 16
+  "order": 16,
+  "capabilities": [
+    "paving"
+  ]
 }

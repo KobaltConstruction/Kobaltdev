@@ -21,6 +21,10 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kobaltconstruction.com/bid-with-us.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://kobaltconstruction.com/blog-2027-building-codes.html</loc>
     <priority>0.6</priority>
   </url>
@@ -37,7 +41,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kobaltconstruction.com/blog-repave-parking-lot-stay-open.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kobaltconstruction.com/blog-road-act-environmental-reviews.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kobaltconstruction.com/blog-school-paving-deadlines.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kobaltconstruction.com/blog-stormwater-tight-sites.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
@@ -73,6 +89,10 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kobaltconstruction.com/concrete.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://kobaltconstruction.com/contact.html</loc>
     <priority>0.8</priority>
   </url>
@@ -93,6 +113,10 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kobaltconstruction.com/faq.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kobaltconstruction.com/frances-slocum-state-park.html</loc>
     <priority>0.6</priority>
   </url>
@@ -103,6 +127,10 @@
   <url>
     <loc>https://kobaltconstruction.com/hazleton-area-school-district.html</loc>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kobaltconstruction.com/hazleton.html</loc>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://kobaltconstruction.com/hilltop-heights.html</loc>
@@ -141,12 +169,28 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kobaltconstruction.com/mount-pocono-memorial-park.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kobaltconstruction.com/mount-pocono-municipal-authority.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kobaltconstruction.com/paving.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://kobaltconstruction.com/plainfield-twp-salt-shed.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://kobaltconstruction.com/pocono-mountain-school-district.html</loc>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kobaltconstruction.com/pocono-mountains.html</loc>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://kobaltconstruction.com/projects.html</loc>
@@ -165,7 +209,15 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kobaltconstruction.com/scranton.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://kobaltconstruction.com/services.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kobaltconstruction.com/site-work.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
@@ -189,7 +241,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://kobaltconstruction.com/faq.html</loc>
-    <priority>0.6</priority>
+    <loc>https://kobaltconstruction.com/wyoming-valley.html</loc>
+    <priority>0.7</priority>
   </url>
 </urlset>

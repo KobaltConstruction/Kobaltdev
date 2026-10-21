@@ -15,22 +15,26 @@
   "gallery": [
     {
       "image": "carbon-county-alt1.jpg",
-      "alt": "Carbon County Emergency Training Center \u2014 additional photo"
+      "alt": "Carbon County Emergency Training Center — additional photo"
     },
     {
       "image": "carbon-county-alt2.jpg",
-      "alt": "Carbon County Emergency Training Center \u2014 additional photo"
+      "alt": "Carbon County Emergency Training Center — additional photo"
     },
     {
       "image": "carbon-county-alt3.jpg",
-      "alt": "Carbon County Emergency Training Center \u2014 additional photo"
+      "alt": "Carbon County Emergency Training Center — additional photo"
     },
     {
       "image": "carbon-county-alt4.jpg",
-      "alt": "Carbon County Emergency Training Center \u2014 additional photo"
+      "alt": "Carbon County Emergency Training Center — additional photo"
     }
   ],
   "summary": "Excavation and site development for a new public safety training facility.",
   "address": "122 Public Safety Ln, Nesquehoning, PA 18240",
-  "order": 21
+  "order": 21,
+  "capabilities": [
+    "sitework",
+    "paving"
+  ]
 }

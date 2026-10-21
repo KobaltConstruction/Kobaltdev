@@ -26,8 +26,14 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Regenerate project and blog pages from data/*.json
+      - name: Install build dependencies
+        run: pip install pillow beautifulsoup4
+
+      - name: Regenerate pages from data/*.json (projects, blog, services, areas, redirects, sitemap, image sizes)
         run: python3 scripts/build.py
+
+      - name: Audit the site (broken links, missing photos, bad project data); stops the deploy on any FAIL
+        run: python3 scripts/audit.py
 
       - name: Commit regenerated pages back to the repo
         continue-on-error: true

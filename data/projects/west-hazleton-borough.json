@@ -14,10 +14,13 @@
   "gallery": [
     {
       "image": "west-hazleton-alt1.jpg",
-      "alt": "West Hazleton Borough \u2014 additional photo"
+      "alt": "West Hazleton Borough — additional photo"
     }
   ],
   "summary": "Full-width residential roadway milling and paving.",
   "address": "100 S 4th St, Hazleton, PA 18202",
-  "order": 22
+  "order": 22,
+  "capabilities": [
+    "paving"
+  ]
 }

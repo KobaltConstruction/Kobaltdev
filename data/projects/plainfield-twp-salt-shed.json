@@ -14,5 +14,8 @@
   "gallery": [],
   "summary": "Ground-up storage building construction.",
   "address": "Plainfield Township, PA",
-  "order": 23
+  "order": 23,
+  "capabilities": [
+    "concrete"
+  ]
 }

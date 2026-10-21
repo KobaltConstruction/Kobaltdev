@@ -1,0 +1,98 @@
+[
+  {
+    "from": "about-us",
+    "to": "about.html"
+  },
+  {
+    "from": "contact-us",
+    "to": "contact.html"
+  },
+  {
+    "from": "lehigh-valley",
+    "to": "projects.html"
+  },
+  {
+    "from": "luzurne-county",
+    "to": "wyoming-valley.html"
+  },
+  {
+    "from": "bethlehem",
+    "to": "jeter-avenue.html"
+  },
+  {
+    "from": "warehouse-and-industrial-facility-construction",
+    "to": "commercial.html"
+  },
+  {
+    "from": "lowes-mount-pocono-warehouse",
+    "to": "lowes-warehouse.html"
+  },
+  {
+    "from": "commercial-building-design",
+    "to": "design-and-consultation.html"
+  },
+  {
+    "from": "multifamily-construction",
+    "to": "residential.html"
+  },
+  {
+    "from": "northeastern-pa-commercial-construction",
+    "to": "commercial.html"
+  },
+  {
+    "from": "resturant-construction",
+    "to": "commercial.html"
+  },
+  {
+    "from": "what-businesses-should-know-about-building-code-updates",
+    "to": "blog-2027-building-codes.html"
+  },
+  {
+    "from": "the-best-time-to-repave-a-commercial-parking-lot-spring-vs-summer",
+    "to": "blog-repave-parking-lot-stay-open.html"
+  },
+  {
+    "from": "5-common-spring-construction-challenges-how-to-overcome-them",
+    "to": "blog.html"
+  },
+  {
+    "from": "top-commercial-construction-trends-to-watch-in-2025",
+    "to": "blog.html"
+  },
+  {
+    "from": "top-commercial-construction-trends-for-2025",
+    "to": "blog.html"
+  },
+  {
+    "from": "how-winter-storms-affect-construction-timelines-and-how-to-plan-for-delays",
+    "to": "blog.html"
+  },
+  {
+    "from": "innovative-techniques-in-commercial-construction",
+    "to": "blog.html"
+  },
+  {
+    "from": "5-surprising-things-you-may-not-know-about-the-commercial-construction-process",
+    "to": "blog.html"
+  },
+  {
+    "from": "essential-safety-practices-in-commercial-construction",
+    "to": "blog-mini-excavator-safety.html"
+  },
+  {
+    "from": "understanding-the-basics-of-multifamily-construction",
+    "to": "residential.html"
+  },
+  {
+    "from": "checklist-for-hiring-a-reputable-commercial-contractor",
+    "to": "commercial.html"
+  },
+  {
+    "from": "marshall-falls-our-latest-project",
+    "to": "marshalls-falls-park.html"
+  },
+  {
+    "from": "what-is-the-difference-between-commercial-and-residential-construction-with-kobalt-construction",
+    "to": "services.html"
+  }
+]
